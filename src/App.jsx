@@ -1,0 +1,22 @@
+import React from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router'
+import DashboardScreen from './screens/DashboardScreen'
+import AppLayout from './layouts/AppLayout'
+import StudentScreen from './screens/StudentScreen'
+
+function App() {
+  return (
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<AppLayout />}>
+            <Route index element={<DashboardScreen />}></Route>
+            <Route path='/student' element={<StudentScreen />}></Route>
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </div>
+  )
+}
+
+export default App
