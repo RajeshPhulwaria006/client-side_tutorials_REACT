@@ -3,7 +3,7 @@ import React from 'react'
 function DashboardScreen() {
   return (
     <div>
-        <h1>This is Dashboard</h1>
+        <h1>This is dashboard screen</h1>
     </div>
   )
 }

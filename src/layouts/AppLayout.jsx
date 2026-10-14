@@ -9,7 +9,7 @@ function AppLayout() {
         <ul>
           <li><NavLink to={"/"}>Dashboard</NavLink></li>
           <li><NavLink to={"/student"}>Student</NavLink></li>
-          <li><NavLink>About</NavLink></li>
+          <li><NavLink>Teacher</NavLink></li>
           <li><NavLink>Help</NavLink></li>
         </ul>
       </nav>
