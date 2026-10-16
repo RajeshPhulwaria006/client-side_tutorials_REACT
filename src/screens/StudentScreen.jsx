@@ -1,4 +1,5 @@
 import React from "react";
+import AddStudent from "./AddStudent";
 
 function StudentScreen() {
   // const [isAppReady, updateStudents] = React.useState(false)
@@ -147,6 +148,7 @@ function StudentScreen() {
 
   return (
     <div>
+      <AddStudent totalStudents={students.length} />
       <table border="1">
         <thead>
           <tr>
